@@ -1,0 +1,152 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #69f2f7;
+      max-width: 1200px;
+
+      margin: 0 auto;
+    }
+
+    .container {
+      display: grid;
+      gap: 16px;
+      padding: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.7),
+        0 0 20px rgba(0, 255, 0, 0.5),
+        0 0 30px rgba(255, 0, 0, 0.5);
+
+    }
+
+    .card img {
+      width: 350px;
+      height: 350px;
+      border-radius: 8px;
+      border: 5px solid navy;
+      object-fit: cover;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .card img:hover {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      flex-grow: 1;
+      display: flex;
+      background-color: #69f2f7;
+      padding: 5px 5px;
+      border-radius: 10px;
+      justify-content: space-between;
+      color: blue;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      align-items: center;
+    }
+
+    .card-content {
+      transition: transform 0.4s ease-in-out;
+
+    }
+
+    .card-content:hover {
+      transform: scale(1.05);
+    }
+
+    .card-content h2 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .card-content .price {
+      font-size: 16px;
+      color: #555;
+      margin-right: 16px;
+    }
+
+    .card-content a {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .card-content a:hover {
+      background-color: #0056b3;
+      color: orange;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 15px;
+      color: #ff4500;
+      text-shadow: 0 0 20px #ff4500;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Order Your Food</h1>
+
+  <div class="container">
+    <div class="card">
+      <img src="Chicken Biryani.jpg" alt="Chicken Biryani">
+      <div class="card-content">
+        <h2>Chicken Biryani</h2>
+        <span class="price"><b>₹200</b></span>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Grilled Chicken.jpg" alt="Grilled Chicken">
+      <div class="card-content">
+        <h2>Grilled Chicken</h2>
+        <span class="price"><b>₹385</b></span>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Fish Curry.jpg" alt="Fish Currt">
+      <div class="card-content">
+        <h2>Fish Curry</h2>
+        <span class="price"><b>₹320</b></span>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Mutton Kebab.webp" alt="Mutton Kebab">
+      <div class="card-content">
+        <h2>Mutton Kebab</h2>
+        <span class="price"><b>₹250</b></span>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Mutton Biryani.jpg" alt="Mutton Biryani">
+      <div class="card-content">
+        <h2>Mutton Biryani</h2>
+        <span class="price"><b>₹350</b></span>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
