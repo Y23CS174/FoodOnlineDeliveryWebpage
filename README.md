@@ -5,7 +5,7 @@ This project showcases an attractive UI design with smooth effects and animation
 
 ## 🌐 Live Demo
 Check out the live version here:  
-[**Food Online Delivery – Live Website**](https://your-username.github.io/food-online-delivery/) 🚀
+[**Food Online Delivery – Live Website**](https://y23cs174.github.io/FoodOnlineDeliveryWebpage/index.html) 🚀
 
 ## ✨ Features
 
@@ -21,5 +21,5 @@ Check out the live version here:
 
 ## 📸 Preview
 
-<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/8c055311-1fd8-48a9-a663-44d71ebda7bb" />
+<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/43ca6cf1-1d7a-4f1c-96ea-26d83eee9f53" />
 
